@@ -1,0 +1,22 @@
+# Local environment files
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Local app config
+**/application-local.properties
+**/application-*.local.properties
+
+# Build outputs
+**/target/
+**/build/
+
+# Node
+node_modules/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
